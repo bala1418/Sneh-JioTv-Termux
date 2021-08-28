@@ -25,13 +25,15 @@
 • First Download Termux From Playstore <br>
 
   ```py
-  [+] -  
+  [+] -  pkg update && upgrade
 
-  [+] -  
+  [+] -  pkg install git php
   
-  [+] -  
+  [+] -  git clone https://github.com/techiesneh/Sneh-JioTv-Termux.git
 
-  [+] -    
+  [+] -  cd  Sneh-JioTv-Termux
+  
+  [+] -  php -S localhost:8585 -t $HOME/Sneh-JioTv-Termux/sneh-jiotv
 
   ```
   
@@ -48,9 +50,9 @@
 • In Player Put Links Format Like Below
 
   ```py
-  [+] - http://localhost:4444/sneh-jiotv/jioo.php?c=Channel_Name&q=Quality
+  [+] - http://localhost:8585/sneh-jiotv/jioo.php?c=Channel_Name&q=Quality
   
-  [+] - http://localhost:4444/sneh-jiotv/jioo.php?c=And_Pictures_HD&q=800
+  [+] - http://localhost:8585/sneh-jiotv/jioo.php?c=And_Pictures_HD&q=800
   
   ```
   
