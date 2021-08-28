@@ -45,11 +45,7 @@ git clone https://github.com/techiesneh/Sneh-JioTv-Termux.git
 ```
 
 ```py
-cd Sneh-JioTv-Termux
-```
-
-```py
-php -S localhost:8585 -t $HOME/Sneh-JioTv-Termux/sneh-jiotv
+php -S localhost:8585 -t $HOME/Sneh-JioTv-Termux
 ```
   
   
