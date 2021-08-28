@@ -25,7 +25,7 @@
 • First Download Termux From Playstore <br>
 
   ```py
-  [+] -  https://www.apkmirror.com/apk/fredrik-fornwall/termux/termux-0-95-release/termux-0-95-android-apk-download/download/?forcebaseapk 
+ https://www.apkmirror.com/apk/fredrik-fornwall/termux/termux-0-95-release/termux-0-95-android-apk-download/download/?forcebaseapk 
 
   ```
 
