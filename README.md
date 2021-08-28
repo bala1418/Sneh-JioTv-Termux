@@ -32,34 +32,48 @@
 • Then Run This Commands in Termux <br>
 • Just Copy & Paste One by One <br>
 
-  ```py
-  [+] -  pkg update && upgrade
+```py
+pkg update && upgrade
+```
 
-  [+] -  pkg install git php
-  
-  [+] -  git clone https://github.com/techiesneh/Sneh-JioTv-Termux.git
+```py
+pkg install git php
+```
 
-  [+] -  cd Sneh-JioTv-Termux
-  
-  [+] -  php -S localhost:8585 -t $HOME/Sneh-JioTv-Termux/sneh-jiotv
+```py
+git clone https://github.com/techiesneh/Sneh-JioTv-Termux.git
+```
 
-  ```
+```py
+cd Sneh-JioTv-Termux
+```
+
+```py
+php -S localhost:8585 -t $HOME/Sneh-JioTv-Termux/sneh-jiotv
+```
   
   
 • Put Your Mobile Number with 91 & Password in Below Link <br>
 
 ```py
+http://localhost:8585/sneh-jiotv/acc.php?user=NUMBER&pass=PASSWORD
+```
 
-  [+] -  http://localhost:8585/sneh-jiotv/acc.php?user=NUMBER&pass=PASSWORD
+#### 😛 Genrate ssoToken Here :
 
-  ```
+- For This You Need JioID Number and Password
+```py
+ http://jiologin.epizy.com/?user=NUMBER&pass=PASSWORD
+```
+- `user` = Username / Mobile No With `91`
+- `pass` = Password
+
+<br>
 
 • Now Run Your Local JioTV 😍<br>
 
   ```py
-  
-  [+] -  http://localhost:8585/sneh-jiotv/index.php
-
+ http://localhost:8585/sneh-jiotv/index.php
   ```
 
 • Open [JIOTV Termux PlayList.m3u](https://raw.githubusercontent.com/techiesneh/Sneh-JioTv-Termux/main/sneh-jiotv/playlist.m3u) in any IPTV Player . You Will See all Channels List <br>
