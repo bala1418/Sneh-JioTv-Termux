@@ -30,6 +30,7 @@
   ```
 
 • Then Run This Commands in Termux <br>
+• Just Copy & Paste One by One <br>
 
   ```py
   [+] -  pkg update && upgrade
@@ -45,11 +46,17 @@
   ```
   
   
-• Put Your Mobile No. with +91 & Password in acc.php file <br>
-• Run acc.php file for a first time <br>
+• Put Your Mobile Number with 91 & Password in Below Link <br>
+
+```py
+
+  [+] -  http://localhost:8585/sneh-jiotv/acc.php?user=NUMBER&pass=PASSWORD
+
+  ```
+
+• Now Run Your Local JioTV 😍<br>
 
   ```py
-  [+] -  http://localhost:8585/sneh-jiotv/acc.php
   
   [+] -  http://localhost:8585/sneh-jiotv/index.php
 
