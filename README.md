@@ -18,11 +18,18 @@
 
 
 <br>
-<h2>🍁 How To Use : </h2>
+<h2>🍁 How To Setup : </h2>
 
 #### ♢ Method 1 :
 
 • First Download Termux From Playstore <br>
+
+  ```py
+  [+] -  https://www.apkmirror.com/apk/fredrik-fornwall/termux/termux-0-95-release/termux-0-95-android-apk-download/download/?forcebaseapk 
+
+  ```
+
+• Then Run This Commands in Termux <br>
 
   ```py
   [+] -  pkg update && upgrade
@@ -31,18 +38,25 @@
   
   [+] -  git clone https://github.com/techiesneh/Sneh-JioTv-Termux.git
 
-  [+] -  cd  Sneh-JioTv-Termux
+  [+] -  cd Sneh-JioTv-Termux
   
   [+] -  php -S localhost:8585 -t $HOME/Sneh-JioTv-Termux/sneh-jiotv
 
   ```
   
   
-• Locate all Files in LocalHost Root Folder <br>
 • Put Your Mobile No. with +91 & Password in acc.php file <br>
-• Open KSWEB App & Start The Server <br>
 • Run acc.php file for a first time <br>
-• Open [JIOTV PlayList.m3u](https://github.com/techiesneh/Sneh-JioTV-Android/blob/main/sneh-playlist.m3u) in any IPTV Player . You Will See all Channels List <br>
+
+  ```py
+  [+] -  http://localhost:8585/sneh-jiotv/acc.php
+  
+  [+] -  http://localhost:8585/sneh-jiotv/index.php
+
+  ```
+
+• Open [JIOTV Termux PlayList.m3u](https://raw.githubusercontent.com/techiesneh/Sneh-JioTv-Termux/main/sneh-jiotv/playlist.m3u) in any IPTV Player . You Will See all Channels List <br>
+
 • Click On Channel and Play <br>
 
 #### ♢ Method 2 :
