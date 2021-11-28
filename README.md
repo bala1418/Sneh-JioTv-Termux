@@ -59,7 +59,7 @@ http://localhost:8585/sneh-jiotv/acc.php?user=NUMBER&pass=PASSWORD
 
 - For This You Need JioID Number and Password
 
-[Jio Login Page] (http://jiologin.epizy.com)
+[Jio Login Page] (http://jiologin.unaux.com/)
  
 - `user` = Username / Mobile No.
 - `pass` = Password
